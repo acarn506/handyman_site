@@ -16,7 +16,9 @@ export default function Container(props) {
       </Head>
       <Nav />
 
-      <main>{children}</main>
+      <main className=" w-screen flex flex-col items-center pb-10 my-10 ">
+        {children}
+      </main>
       <Footer />
     </>
   );

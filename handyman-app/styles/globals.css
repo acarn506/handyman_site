@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  a {
+    @apply text-black hover:text-white font-bold transition-all delay-100 duration-300 text-lg;
+  }
+  h3 {
+    @apply text-gray-600 font-semibold;
+  }
+}
+
 html,
 body {
   padding: 0;
@@ -13,6 +22,7 @@ body {
 body {
   position: relative;
   min-height: 100vh;
+  padding-bottom: 190px;
 }
 
 #__next {
