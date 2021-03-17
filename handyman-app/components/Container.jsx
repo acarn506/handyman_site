@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Nav from "./Nav";
+import Footer from "./Footer";
 
 export default function Container(props) {
   const { children, ...customMeta } = props;
@@ -12,7 +14,10 @@ export default function Container(props) {
       <Head>
         <title>{meta.title}</title>
       </Head>
+      <Nav />
+
       <main>{children}</main>
+      <Footer />
     </>
   );
 }
