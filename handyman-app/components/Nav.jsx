@@ -24,7 +24,7 @@ export default function Nav() {
         </ul>
       </div>
       <nav>
-        <ul className=" flex flew-row space-x-10  pt-0 ">
+        <ul className=" flex flew-row space-x-10  pt-0">
           <li>
             <Link href="/">
               <a>Home</a>

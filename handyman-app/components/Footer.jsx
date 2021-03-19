@@ -29,7 +29,7 @@ export default function Footer() {
         </ul>
       </div>
       <div className="flex justify-center items-center py-5 bg-blue-500">
-        <p> Copyright © 2021 Next.js App. Designed by Anthony Carnero </p>
+        <p> Cesar Manon's Handyman Service, God Bless </p>
       </div>
     </footer>
   );
