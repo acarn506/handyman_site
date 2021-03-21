@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Nav() {
   return (
-    <header className="w-full flex flex-row justify-between top-0 pt-16 px-28 bg-gray-200">
+    <header className="w-full flex flex-row justify-between top-0 pt-16 px-28 bg-gray-300">
       <Image
         src="/vercel.svg"
         alt="me"

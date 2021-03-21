@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <Container title="About">
-      <h1 className="text-4xl font-bold mt-5 mb-10">About</h1>
+      <h1 className="text-4xl font-bold my-10">About</h1>
       <div className="flex flex-row mx-20 mb-10 justify-around space-x-10">
         <section className="">
           <Image
