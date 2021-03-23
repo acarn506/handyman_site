@@ -31,6 +31,11 @@ export default function Nav() {
             </Link>
           </li>
           <li>
+            <Link href="/service">
+              <a>Services</a>
+            </Link>
+          </li>
+          <li>
             <Link href="/about">
               <a>About</a>
             </Link>
