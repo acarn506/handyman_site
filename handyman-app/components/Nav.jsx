@@ -3,26 +3,22 @@ import Image from "next/image";
 
 export default function Nav() {
   return (
-    <header className="w-full flex flex-row justify-between top-0 pt-16 px-28 bg-gray-300">
-      <Image
-        src="/vercel.svg"
-        alt="me"
-        width="80"
-        height="80"
-        className="absolute px-14"
-      />
-      <div className="flex justify-center">
-        <ul className="flex flex-row space-x-10 text-center">
-          <li>
-            <h2 className="text-lg font-bold">Contact</h2>
-            <h3>510-682-1237</h3>
-          </li>
-          <li>
-            <h2 className="text-lg font-bold">Email</h2>
-            <h3>cesarmanon823@gmail.com</h3>
-          </li>
-        </ul>
+    <header className="w-full h-36 flex flex-row justify-center space-x-56 items-center top-0 pt-2 bg-gray-200">
+      <div className="absolute left-14 top-8 shawdow">
+        <Image src="/wrench_logo.png" alt="me" width="80" height="80" />
       </div>
+
+      <ul className="flex flex-row  items-start space-x-10 text-center ">
+        <li>
+          <h2 className="text-lg font-bold">Contact</h2>
+          <h3>510-682-1237</h3>
+        </li>
+        <li>
+          <h2 className="text-lg font-bold">Email</h2>
+          <h3>cesarmanon823@gmail.com</h3>
+        </li>
+      </ul>
+
       <nav>
         <ul className=" flex flew-row space-x-10  pt-0">
           <li>
