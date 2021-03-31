@@ -9,7 +9,7 @@ export default function Home() {
       </div>
 
       <section>
-        <h2 className="text-center text-4xl my-5 border-b-2 border-gray-400">
+        <h2 className="text-center text-4xl  text-blue-600 my-5 border-b-2 border-gray-400">
           Service Locations
         </h2>
         <ul className=" flex flex-row space-x-10 list-disc">
@@ -19,8 +19,10 @@ export default function Home() {
       </section>
 
       <section className="flex flex-row mt-16 mb-10">
-        <div className="mx-10 text-center">
-          <p className="mb-4 text-lg">Pipe Replacement</p>
+        <div className="mx-10 text-center ">
+          <p className="mb-4 text-lg font-medium border-b-2 border-blue-200">
+            Pipe Replacement
+          </p>
           <Image
             src="/IMG_pipe.png"
             alt="Picture of a pipe"
@@ -31,7 +33,9 @@ export default function Home() {
         </div>
 
         <div className="mx-10 text-center">
-          <p className="mb-4 text-lg">Shower Replacement</p>
+          <p className="mb-4 text-lg font-medium border-b-2 border-blue-200">
+            Shower Replacement
+          </p>
           <Image
             src="/IMG_shower.png"
             alt="Picture of a shower"
@@ -42,7 +46,9 @@ export default function Home() {
         </div>
 
         <div className="mx-10 text-center">
-          <p className="mb-4 text-lg">Water Heater Replacement</p>
+          <p className="mb-4 text-lg font-medium border-b-2 border-blue-200">
+            Water Heater Replacement
+          </p>
           <Image
             src="/IMG_waterheater.png"
             alt="Picture of a water heater"

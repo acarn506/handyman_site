@@ -20,22 +20,22 @@ export default function Footer() {
         <ul className="flex flex-col space-y-5 items-center text-center mt-0.5 mb-10 mr-0 ml-5 ">
           <li>
             <h2 className="text-lg font-bold">Contact</h2>
-            <h3 className="text-white text-lg font-light">510-682-1237</h3>
+            <h3 className="text-lg text-blue-600">510-682-1237</h3>
           </li>
           <li>
             <h2 className="text-lg font-bold">Email</h2>
-            <h3 className="text-white text-lg font-light">
-              cesarmanon823@gmail.com
-            </h3>
+            <h3 className=" text-lg text-blue-600">cesarmanon823@gmail.com</h3>
           </li>
         </ul>
 
         <ul className="items-center text-center mt-0.5 mb-10 mr-0 ml-3 ">
           <li>
-            <p className="text-lg font-medium text-red-900">Hablamos Español</p>
+            <p className="text-xl font-medium text-green-700">
+              Hablamos Español
+            </p>
           </li>
           <li>
-            <p className="text-lg font-medium text-red-900">{"& English"}</p>
+            <p className="text-lg font-medium text-green-700">{"& English"}</p>
           </li>
         </ul>
       </div>
