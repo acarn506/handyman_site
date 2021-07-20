@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function Nav() {
   return (
     <header className="w-full h-36 flex flex-row justify-center space-x-56 items-center top-0 pt-2 bg-gray-200">
-      <div className="absolute left-14 top-6 ">
-        <Image src="/logo2.png" alt="me" width="100" height="100" />
+      <div className="absolute left-14 top-6 bg-black rounded-md">
+        <Image src="/handyman_logo.png" alt="me" width="100" height="100" />
       </div>
 
       <ul className="flex flex-row  items-start space-x-10 text-center ">
