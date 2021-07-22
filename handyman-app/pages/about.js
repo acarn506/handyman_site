@@ -7,7 +7,7 @@ export default function About() {
       <div className="flex flex-row mx-20 mb-10 justify-around space-x-10">
         <section className="">
           <img
-            src="/public/about.png"
+            src="/about.png"
             alt="Picture of Cesar the Handyman"
             width={300}
             height={300}

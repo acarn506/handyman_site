@@ -23,7 +23,7 @@ export default function Home() {
             Pipe Replacement
           </p>
           <img
-            src="/public/IMG_pipe.png"
+            src="/IMG_pipe.png"
             alt="Picture of a pipe"
             width={220}
             height={300}
@@ -36,7 +36,7 @@ export default function Home() {
             Shower Replacement
           </p>
           <img
-            src="/public/IMG_shower.png"
+            src="/IMG_shower.png"
             alt="Picture of a shower"
             width={220}
             height={300}
@@ -49,7 +49,7 @@ export default function Home() {
             Water Heater Replacement
           </p>
           <img
-            src="/public/IMG_waterheater.png"
+            src="/IMG_waterheater.png"
             alt="Picture of a water heater"
             width={220}
             height={300}
