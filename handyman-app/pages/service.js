@@ -1,5 +1,4 @@
 import Container from "../components/Container";
-import Image from "next/image";
 
 export default function Service() {
   return (
@@ -14,8 +13,8 @@ export default function Service() {
         </div>
         <div className="flex flex-row flex-wrap justify-around my-10 ">
           <div className="border border-gray-100 shadow rounded p-5">
-            <Image
-              src="/moving.png"
+            <img
+              src="/public/moving.png"
               alt="Picture of Cesar the Handyman"
               width={200}
               height={200}
@@ -27,8 +26,8 @@ export default function Service() {
           </div>
 
           <div className="border border-gray-100 shadow rounded p-5">
-            <Image
-              src="/painting.png"
+            <img
+              src="/public/painting.png"
               alt="Picture of Cesar the Handyman"
               width={200}
               height={200}
@@ -40,8 +39,8 @@ export default function Service() {
           </div>
 
           <div className="border border-gray-100 shadow rounded p-5">
-            <Image
-              src="/roofing.png"
+            <img
+              src="/public/roofing.png"
               alt="Picture of Cesar the Handyman"
               width={200}
               height={200}
@@ -55,8 +54,8 @@ export default function Service() {
 
         <div className="flex flex-row flex-wrap justify-around my-10 ">
           <div className="border border-gray-100 shadow rounded p-5">
-            <Image
-              src="/cleaning.png"
+            <img
+              src="/public/cleaning.png"
               alt="Picture of Cesar the Handyman"
               width={200}
               height={200}
@@ -68,8 +67,8 @@ export default function Service() {
           </div>
 
           <div className="border border-gray-100 shadow rounded p-5">
-            <Image
-              src="/assembly.png"
+            <img
+              src="/public/assembly.png"
               alt="Picture of Cesar the Handyman"
               width={200}
               height={200}
@@ -81,8 +80,8 @@ export default function Service() {
           </div>
 
           <div className="border border-gray-100 shadow rounded p-5">
-            <Image
-              src="/yardwork.png"
+            <img
+              src="/public/yardwork.png"
               alt="Picture of Cesar the Handyman"
               width={200}
               height={200}
@@ -96,8 +95,8 @@ export default function Service() {
 
         <div className="flex flex-row flex-wrap justify-evenly my-10 ">
           <div className="border border-gray-100 shadow rounded p-5">
-            <Image
-              src="/fence.png"
+            <img
+              src="/public/fence.png"
               alt="Picture of Cesar the Handyman"
               width={200}
               height={200}
@@ -109,8 +108,8 @@ export default function Service() {
           </div>
 
           <div className="border border-gray-100 shadow rounded p-5">
-            <Image
-              src="/dump.png"
+            <img
+              src="/public/dump.png"
               alt="Picture of Cesar the Handyman"
               width={200}
               height={200}

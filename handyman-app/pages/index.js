@@ -1,5 +1,4 @@
 import Container from "../components/Container";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -23,8 +22,8 @@ export default function Home() {
           <p className="mb-4 text-lg font-medium border-b-2 border-blue-200">
             Pipe Replacement
           </p>
-          <Image
-            src="/IMG_pipe.png"
+          <img
+            src="/public/IMG_pipe.png"
             alt="Picture of a pipe"
             width={220}
             height={300}
@@ -36,8 +35,8 @@ export default function Home() {
           <p className="mb-4 text-lg font-medium border-b-2 border-blue-200">
             Shower Replacement
           </p>
-          <Image
-            src="/IMG_shower.png"
+          <img
+            src="/public/IMG_shower.png"
             alt="Picture of a shower"
             width={220}
             height={300}
@@ -49,8 +48,8 @@ export default function Home() {
           <p className="mb-4 text-lg font-medium border-b-2 border-blue-200">
             Water Heater Replacement
           </p>
-          <Image
-            src="/IMG_waterheater.png"
+          <img
+            src="/public/IMG_waterheater.png"
             alt="Picture of a water heater"
             width={220}
             height={300}

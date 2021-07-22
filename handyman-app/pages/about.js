@@ -1,5 +1,4 @@
 import Container from "../components/Container";
-import Image from "next/image";
 
 export default function About() {
   return (
@@ -7,8 +6,8 @@ export default function About() {
       <h1 className="text-4xl font-bold my-10">About Me</h1>
       <div className="flex flex-row mx-20 mb-10 justify-around space-x-10">
         <section className="">
-          <Image
-            src="/about.png"
+          <img
+            src="/public/about.png"
             alt="Picture of Cesar the Handyman"
             width={300}
             height={300}
